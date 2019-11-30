@@ -60,16 +60,10 @@ class MovieList extends Component {
 			// open: false
 		};
 	}
-
-	// onOpenModal = () => {
-	//   this.setState({ open: true });
-	// };
 	render() {
 		return (
 			<div>
-				{list.map(item => (
 					<div>{MovieCard}</div>
-				))}
 			</div>
 		);
 	}

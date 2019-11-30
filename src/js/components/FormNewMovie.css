@@ -97,8 +97,8 @@ button {
   color: #fefefe;
 }
 button:hover {
-  background-color: #4A4E69;
-  color: #fefefe;
+  /*background-color: #4A4E69;*/
+  /*color: #fefefe;*/
 }
 
 input.error {
