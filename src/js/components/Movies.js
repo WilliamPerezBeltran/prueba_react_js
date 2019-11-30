@@ -1,5 +1,6 @@
 import React from "react";
 import movies from "./Movies.css";
+import ButtonMovie from "./ButtonMovie";
 
 function Movies() {
   return (
@@ -13,7 +14,7 @@ function Movies() {
                   <h2>Sidebar</h2>
                 </div>
                 <div class="Movies-new-movie">
-                  <button class="button">Crear nueva película</button>
+                  <ButtonMovie/>
                 </div>
               </div>
 
