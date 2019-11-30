@@ -2,6 +2,9 @@ import React from "react";
 import movies from "./Movies.css";
 import ButtonMovie from "./ButtonMovie";
 
+
+
+
 function Movies() {
   return (
     <div>

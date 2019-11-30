@@ -1,15 +1,16 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import Movies from "./js/components/Movies";
 import Sidenav from "./js/components/Sidenav";
 
-function App() {
-  return (
-    <div>
-      <Sidenav />
-      <Movies />
-    </div>
-  );
+class App extends Component {
+	render() {
+		return (
+			<div>
+				<Sidenav />
+				<Movies />
+			</div>
+		);
+	}
 }
 
 export default App;
