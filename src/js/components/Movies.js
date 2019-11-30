@@ -1,9 +1,8 @@
 import React from "react";
 import movies from "./Movies.css";
 import ButtonMovie from "./ButtonMovie";
-
-
-
+import MovieList from "./MovieList";
+import { Container, Row, Col } from "react-grid-system";
 
 function Movies() {
   return (
@@ -17,7 +16,7 @@ function Movies() {
                   <h2>Sidebar</h2>
                 </div>
                 <div class="Movies-new-movie">
-                  <ButtonMovie/>
+                  <ButtonMovie />
                 </div>
               </div>
 
@@ -29,6 +28,13 @@ function Movies() {
               </div>
             </div>
           </div>
+
+          <Container>
+            <Row>
+        
+              <MovieList movies={movies} />
+            </Row>
+          </Container>
 
           <h2>Sidebar</h2>
           <p>This sidebar is of full height (100%) and always shown.</p>
