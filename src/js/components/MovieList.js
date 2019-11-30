@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Card, CardTitle, CardMedia } from "material-ui";
+import MovieCard from "./MovieCard";
 
 const list = [
 	{
@@ -65,16 +67,9 @@ class MovieList extends Component {
 	render() {
 		return (
 			<div>
-					{list.map(item => (
-				<div>
-						<div key={item.id}>
-							<div>{item.id}</div>
-							<div>{item.firstname}</div>
-							<div>{item.lastname}</div>
-							<div>{item.year}</div>
-						</div>
-				</div>
-					))}
+				{list.map(item => (
+					<div>{MovieCard}</div>
+				))}
 			</div>
 		);
 	}

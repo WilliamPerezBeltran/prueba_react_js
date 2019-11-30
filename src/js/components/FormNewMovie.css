@@ -50,7 +50,10 @@ SILVER PINK: #C9ADA7
   margin-top: 0.25em;
   color: #222;
 }
-
+.styles_modal__gNwvD {
+  position: initial !important;
+  padding: 0
+}
 form {
   width: 100%;
   display: flex;
