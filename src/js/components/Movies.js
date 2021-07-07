@@ -29,12 +29,8 @@ function Movies() {
             </div>
           </div>
 
-          <Container>
-            <Row>
         
-              <MovieList movies={movies} />
-            </Row>
-          </Container>
+              <MovieList  />
 
           <h2>Sidebar</h2>
           <p>This sidebar is of full height (100%) and always shown.</p>
